@@ -1,4 +1,4 @@
+# Kill all active polybars
 killall -q polybar
-polybar left
-polybar middle
-polybar right
+# Start all bars
+polybar left & polybar middle & polybar right
